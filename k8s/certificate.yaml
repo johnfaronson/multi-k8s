@@ -9,12 +9,10 @@ spec:
     kind: ClusterIssuer
   commonName: aronsonhome.us
   dnsNames: 
-    - aronsonhome.us
     - multi-k8s.aronsonhome.us
   acme: 
     config:
       - http01:
           ingressClass: nginx 
         domains:
-          - aronsonhome.us
           - multi-k8s.aronsonhome.us
