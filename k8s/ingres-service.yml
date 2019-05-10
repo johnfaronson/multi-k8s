@@ -10,9 +10,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - aronsonhome.us
-        - multi-k8s.aronsonhome.us
-      secretname: k8s-multi-aronsonhome
+        - aronsonhome.us 
+        - multi-k8s.aronsonhome.us 
+      secretName: k8s-multi-aronsonhome
   rules:
     - host: aronsonhome.us
       http:
