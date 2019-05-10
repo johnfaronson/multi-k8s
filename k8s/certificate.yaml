@@ -7,7 +7,7 @@ spec:
   issuerRef: 
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: aronsonhome.us
+  commonName: aronsonhome.us 
   dnsNames: 
     - aronsonhome.us
     - multi-k8s.aronsonhome.us
